@@ -14,9 +14,11 @@ import VideocamOffIcon from '@mui/icons-material/VideocamOff';
 import SendIcon from '@mui/icons-material/Send';
 import { useEffect } from "react";
 import server from "../Environment";
-
+import { useNavigate } from "react-router-dom";
 const server_url = server;
 var connections = {};
+
+const router = useNavigate();
 
 //It is a STUN server
 //A STUN server is a lightweight servers running on the public internet which return the ip address
@@ -374,7 +376,7 @@ export default function VideoMeetPage(){
             let tracks = localVideoref.current.srcObject.getTracks()
             tracks.forEach(track => track.stop())
         } catch (e) { }
-        window.location.href = "/home"
+        router('/home')
     }
 
     let openChat = () => {
