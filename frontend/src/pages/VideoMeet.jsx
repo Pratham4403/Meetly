@@ -13,8 +13,9 @@ import VideocamIcon from '@mui/icons-material/Videocam';
 import VideocamOffIcon from '@mui/icons-material/VideocamOff';
 import SendIcon from '@mui/icons-material/Send';
 import { useEffect } from "react";
+import server from "../Environment";
 
-const server_url = "http://localhost:1856";
+const server_url = server;
 var connections = {};
 
 //It is a STUN server
