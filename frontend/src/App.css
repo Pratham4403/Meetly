@@ -1,0 +1,117 @@
+.landingPageContainer{
+    width : 100vw;
+    height : 100vh;
+    background-image: url("../public/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+.landingPageContainer nav{
+    padding-inline: 1.2rem;
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landingPageContainer nav h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.landingPageContainer nav .navHeader{
+    display : flex;
+    align-items: center;
+    text-align: center;
+}
+
+.landingPageContainer nav img{
+    width: 10%;
+    margin-right: 0.8rem;
+}
+
+.landingPageContainer nav .navlist{
+    display: flex;
+    gap: 1.3rem;
+    cursor: pointer;
+    justify-content: center;
+}
+
+
+.landingMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    height: 80vh;
+}
+
+.landingMainContainer>:nth-child(1){
+    font-size: 1.6rem;
+}
+
+.landingMainContainer>:nth-child(2) img{
+    height: 70vh;
+    width: auto;
+}
+
+.authMainDiv{
+    width : 100vw;
+    height : 100vh;
+    background-image: url("../public/authbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainNavbar{
+    background-color: #FBFBFB;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+.meetContainer {
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+}
+
+.bodyNavbar{
+    background-color: #FBFBFB;
+    height: 88.3vh;
+    overflow: hidden;
+}
+
+.leftPanel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.rightPanel {
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel > img {
+  width: 30vw;
+  height: auto;
+  border-radius: 20px;
+}
+
+.historyDiv:hover{
+    background-color: aquamarine;
+}
