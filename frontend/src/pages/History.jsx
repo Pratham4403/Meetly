@@ -46,11 +46,12 @@ export default function HistoryPage(){
                     </IconButton >
                 </div>
                 <hr style={{opacity:"0.1",marginTop:"16px"}}/>
+                <div style={{display:"flex",flexWrap:"wrap",marginLeft:"150px"}}>
             {
                 (meetings.length !== 0) ? meetings.map((e, i) => {
                     return (
                         <>
-                            <Card key={i} variant="outlined" style={{width:"20%",height:"20%",border:"1px solid black",textAlign:"center",margin:"35px 40px",padding:"10px 10px",backgroundColor:"#CCCCFF"}}>
+                            <Card key={i} variant="outlined" style={{width:"20%",height:"20%",border:"1px solid black",textAlign:"center",margin:"25px 20px",padding:"10px 10px",backgroundColor:"#CCCCFF"}}>
                                 <CardContent>
                                     <h4 style={{marginBottom:"10px"}}>Meeting Details :</h4>
                                     <hr style={{marginBottom:"10px"}}/>
@@ -69,6 +70,7 @@ export default function HistoryPage(){
                     <h1>No Meeting Found!</h1>
                 </>
             }
+            </div> 
         </div>
         </>
     )
