@@ -18,7 +18,6 @@ import { useNavigate } from "react-router-dom";
 const server_url = server;
 var connections = {};
 
-const router = useNavigate();
 
 //It is a STUN server
 //A STUN server is a lightweight servers running on the public internet which return the ip address
@@ -47,6 +46,7 @@ export default function VideoMeetPage(){
     let [username,setUsername] = useState("");
     const videoRef = useRef([]);
     let [videos,setVideos] = useState([]);
+    const router = useNavigate();
 
     useEffect(() => {
         console.log("HELLO")
