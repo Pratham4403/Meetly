@@ -123,4 +123,11 @@ REACT_APP_API_URL=http://localhost:5000
 
 This project is licensed under the **MIT License**.
 
+---
 
+## 📬 Contact
+
+Created by **Pratham**
+Find me on [GitHub](https://github.com/Pratham4403) and feel free to raise issues or reach out.
+
+Enjoy building and Exploring with Meetly! 🎥
