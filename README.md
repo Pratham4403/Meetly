@@ -37,7 +37,7 @@ Meetly/
 | **Frontend** | React, HTML, CSS, JavaScript |
 | **Backend** | Node.js, Express, WebSocket |
 | **Real-time Communication** | WebRTC (getUserMedia, RTCPeerConnection) |
-| **Database** | (Optional, for users/rooms) |
+| **Database** | MongoDb |
 | **Deployment** | Render / Vercel |
 
 ---
